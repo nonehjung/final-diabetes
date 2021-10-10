@@ -1,0 +1,170 @@
+:root {
+    --bg-primary: #ebedef;
+    --card-primary: #ffffff;
+    --text-primary: #000000;
+    --text-secondary: #444444;
+    --cu-grey: #58595b;
+    --button-primary: #de5c8e;
+    --button-secondary: #f8e1ea;
+    --text-invert: #ffffff;
+  }
+  .background {
+    background: var(--bg-primary);
+    min-height: 100vh;
+    height: 100% !important;
+  }
+  
+  .home-block {
+    /* background: var(--bg-primary); */
+    display: flex;
+    flex-direction: column;
+    height: "100%";
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-card {
+    background: var(--card-primary);
+    /* box-shadow: var(--shadow-primary), var(--shadow-secondary); */
+    border-radius: 32px;
+    padding: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 80%;
+    max-width: 480px;
+  }
+
+  .text-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--cu-grey);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .space-text {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .textfield {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 48px;
+  }
+
+  .button {
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+    background-color: var(--button-primary);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-text-white {
+    color: var(--text-invert);
+    font-weight: 600;
+  }
+  .button-text-grey {
+    color: var(--cu-grey);
+    font-weight: 600;
+  }
+  .button-secondary {
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+    background-color: var(--button-secondary);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-text {
+    font-weight: 600;
+  }
+  .text-option {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-align: center;
+  }
+  
+  .diabetes-display {
+      display: flex;
+      border-radius: 50%;
+      color: hsl(0, 0%, 100%);
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      border: 3px #ffffff solid;
+      transition: background 0.5s;
+    
+  }
+  
+  .notdiabetes {
+      background: #408fda;
+  }
+  
+  .diabetes {
+      background: #ff0000;
+  }
+  
+  .chat img {
+    border-radius: 50%;
+  }
+  
+  .chat {
+    color: #dd7c9c;
+  }
+
+  .watch {
+    transform: scale(1.9);
+  }
+
+  .bg {
+    /* The image used */
+    /* background-image: url("/health_home.jpg"); */
+  
+    /* Full height */
+    height: 10%; 
+    width: 100%;
+    /* display: flex; */
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 1000;
+    /* display: flex; */
+  }
+
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 1000;
+    /* display: flex; */
+  }
+  
+  .para {
+    left:'20px';
+    margin-right:'20px';
+    text-align:'justify';
+  }
