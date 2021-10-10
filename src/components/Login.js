@@ -28,10 +28,25 @@ const Login = () => {
       const data = new FormData();
       data.append('username', username);
       data.append('password', password);
+      
+      
+      // Aj Lun
+      
       // https://fastapi-app-diabetes.herokuapp.com
+
+
+
+
+
+      // noneh
+
+      // https://diabetes-fastapi.herokuapp.com/
+
+
+
       const news = async () => {
         // let res = await axios.post("http://127.0.0.1:8000/login", data)
-        let res = await axios.post("https://fastapi-app-diabetes.herokuapp.com/login", data)
+        let res = await axios.post("https://diabetes-fastapi.herokuapp.com//login", data)
           .then((response) => {
             Cookies.set("token", response.data.access_token);
             return response;

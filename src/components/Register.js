@@ -32,7 +32,22 @@ function Register() {
         "confirmpassword": confirmpassword
       };
       // axios.post("http://127.0.0.1:8000/register", data)
-      axios.post("https://fastapi-app-diabetes.herokuapp.com/register", data)
+
+
+      // Aj Lun
+
+      // https://fastapi-app-diabetes.herokuapp.com
+
+
+
+      // noneh
+
+      // https://diabetes-fastapi.herokuapp.com/
+
+
+
+
+      axios.post("https://diabetes-fastapi.herokuapp.com//register", data)
         .then((response) => {
           console.log(response);
           alert(response);
