@@ -19,6 +19,7 @@ import Exercise from "./components/Exercise";
 import User from "./components/User";
 import BloodSugar  from "./components/BloodSugar";
 import Heroku from "./components/heroku";
+import About from "./components/About";
 
 export const AuthApi = React.createContext();
 export const TokenApi = React.createContext();
@@ -61,21 +62,31 @@ const Routes = () => {
       <Route exact path="/">
         <Home />
       </Route>
+
       <Route exact path="/diabetes2">
         <Diabetes2 />
       </Route>
+
       <Route exact path="/food">
         <Food />
       </Route>
+
       <Route exact path="/register">
         <Register />
       </Route>
+
       <Route exact path="/exercise">
         <Exercise />
       </Route>
+
       <Route exact path="/heroku">
         <Heroku />
       </Route>
+
+      <Route exact path="/about">
+        <About />
+      </Route>
+
       <ProtectedRoute
         exact path="/user"
         auth={Auth.auth}
