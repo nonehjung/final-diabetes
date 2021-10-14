@@ -47,6 +47,10 @@ function Register() {
       
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ee9c119af32d1eca8b9f4078465f6c4d6fb020f5
       axios.post("https://diabetes-fastapi.herokuapp.com/register", data)
         .then((response) => {
           console.log(response);
