@@ -167,4 +167,35 @@
     left:'20px';
     margin-right:'20px';
     text-align:'justify';
+    
+  }
+
+
+
+  .centered3 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(63, 53, 53);
+    font-weight: 1000;
+    /* display: flex; */
+    
+  }
+
+
+
+
+  .centered4 { 
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(63, 53, 53);
+    font-weight: 3000;
+    /* display: flex; */
+    font-size: 25px
+    
   }

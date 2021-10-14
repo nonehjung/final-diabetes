@@ -44,10 +44,10 @@ function Register() {
 
       // https://diabetes-fastapi.herokuapp.com/
 
+      
 
 
-
-      axios.post("https://diabetes-fastapi.herokuapp.com//register", data)
+      axios.post("https://diabetes-fastapi.herokuapp.com/register", data)
         .then((response) => {
           console.log(response);
           alert(response);
