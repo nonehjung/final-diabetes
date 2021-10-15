@@ -35,7 +35,7 @@ function AboutPage() {
         <div className="aboutusimg">
 
 
-            <ImageList sx={{ width: 1000, height: 900 }}>
+            <ImageList sx={{ width: 500, height: 450 }}>
                 <ImageListItem key="Subheader" cols={2}>
                     <ListSubheader component="div">Our Team</ListSubheader>
                 </ImageListItem>
